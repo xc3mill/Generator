@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="playground">
+        <div class="generateRandomName">
+            <h1>Generate Random <span>Name.</span></h1>
+            <h3>Click the "Generate Name" button to generate a random name.</h3>
+            <button onclick="generateName()">Generate Name</button>
+            <h1 class="nameBox" id="name">Your NAME will appear here.</h1>
+        </div>
+        <div class="generateRandomAge">
+            <h1>Generate Random <span>Age.</span></h1>
+            <h3>Click the "Generate Age" button to generate a random age.</h3>
+            <h3>Select a range from to.</h3>
+            <div>
+                <input class="selectRange" id="ageFrom" type="number" value="" placeholder="from"> 
+                <input class="selectRange" id="ageTo" type="number" value="" placeholder="to">
+            </div>
+            <button onclick="generateAge()">Generate Age</button>
+            <h1 class="ageBox" id="age">Your AGE will appear here.</h1>
+        </div>
+        <div class="generateRandomNumber">
+            <h1>Generate Random Phone <span>Number.</span></h1>
+            <h3>Click the "Generate" button to generate a random number.</h3>
+            <button onclick="generateNumber()">Generate </button>
+            <h1 class="numberBox" id="numberBox">Your NUMBER will appear here.</h1>
+        </div>
+    </section>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
