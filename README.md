@@ -1,2 +1,5 @@
 # Generator
-Name, age and phone number generator
+
+Here you can see how to create a program to generate Names, surnames, numbers and ages.
+
+Names generator
